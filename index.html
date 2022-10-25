@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartphone Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Smartphone Shop</h1>
+
+    Тип товара:
+    <form>
+            <select name="prodType">
+                <option value="1">Honor 20</option>
+                <option value="2">iPhone 14</option>
+                <option value="3">Samsung Flip4</option>
+            </select>
+            <div id="radios">
+                <label><input type="radio" name="prodOptions" value="option1" checked>128 GB</label>
+                <label><input type="radio" name="prodOptions" value="option2">256 GB</label>
+                <label><input type="radio" name="prodOptions" value="option3">512 GB</label>
+            </div>
+            <div id="checkboxes">
+                <label><input type="checkbox" name="prop1">+Гарантия</label>
+                <label><input type="checkbox" name="prop2">+Защитная плёнка</label>
+            </div>
+        <p>Количество товара</p>
+        <input id="myField" name="field2" type="text" value="1" placeholder="Кол-во товара">
+    </form>
+
+    <p>Стоимость заказа:</p>
+    <div id="prodPrice"></div>
+
+    <img id="phone-img" src="">
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
