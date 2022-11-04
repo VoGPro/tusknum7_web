@@ -1,0 +1,29 @@
+body {
+    background-color: darkgrey;
+}
+
+.karkas {
+    width: 90%;
+    background-color: lavender;
+    border-radius: 10px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.country-list {
+    background-color: lightslategrey;
+    width: 50%;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 8px;
+}
+
+.cr li {
+    margin-bottom: 6px;
+}
