@@ -1,43 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smartphone Shop</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Beautiful Places</title>
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-    <h1>Smartphone Shop</h1>
+    <div class="karkas">
+        <h1>Топ самых красивых мест</h1>
+        <ul id="lightSlider">
+            <li>
+                <img src="image/manhattan.jpg" alt="manhattan">
+            </li>
+            <li>
+                <img src="image/saint-petersburg.jpg" alt="saint-petersburg">
+            </li>
+            <li>
+                <img src="image/zermatt.jpg" alt="zermatt">
+            </li>
+            <li>
+                <img src="image/lofoten.jpg" alt="lofoten">
+            </li>
+            <li>
+                <img src="image/quebec.jpg" alt="quebec">
+            </li>
+            <li>
+                <img src="image/paris.jpg" alt="paris">
+            </li>
+            <li>
+                <img src="image/london.jpg" alt="london">
+            </li>
+            <li>
+                <img src="image/copenhagen.jpg" alt="copenhagen">
+            </li>
+            <li>
+                <img src="image/berlin.jpg" alt="berlin">
+            </li>
+            <li>
+                <img src="image/barcelona.jpg" alt="barcelona">
+            </li>
+            <li>
+                <img src="image/florence.jpg" alt="florence">
+            </li>
+            <li>
+                <img src="image/santorini.jpg" alt="santorini">
+            </li>
+            <li>
+                <img src="image/osaka.jpg" alt="osaka">
+            </li>
+            <li>
+                <img src="image/gyeongbok.jpg" alt="gyeongbok">
+            </li>
+            <li>
+                <img src="image/hong-kong.jpg" alt="hong-kong">
+            </li>
+            <li>
+                <img src="image/dubai.jpg" alt="dubai">
+            </li>
+        </ul>
+        <div class="country-list">
+            <b>В данной подборке представлены следующие места:</b>
+            <ul class="cr">
+                <li>Манхэттен, США</li>
+                <li>Санкт-Петербург, Россия</li>
+                <li>Церматт, Швейцария</li>
+                <li>Лофотенские о-ва, Норвегия</li>
+                <li>Квебек, Канада</li>
+                <li>Париж, Франция</li>
+                <li>Лондон, Великобритания</li>
+                <li>Копенгаген, Дания</li>
+                <li>Берлин, Германия</li>
+                <li>Барселона, Испания</li>
+                <li>Флоренция, Италия</li>
+                <li>Санторини, Греция</li>
+                <li>Осака, Япония</li>
+                <li>Кёнбоккун, Южная Корея</li>
+                <li>Гонконг</li>
+                <li>Дубай, ОАЭ</li>
+            </ul>
+        </div>
+    </div>
 
-    Тип товара:
-    <form>
-            <select name="prodType">
-                <option value="1">Honor 20</option>
-                <option value="2">iPhone 14</option>
-                <option value="3">Samsung Flip4</option>
-            </select>
-            <div id="radios">
-                <label><input type="radio" name="prodOptions" value="option1" checked>128 GB</label>
-                <label><input type="radio" name="prodOptions" value="option2">256 GB</label>
-                <label><input type="radio" name="prodOptions" value="option3">512 GB</label>
-            </div>
-            <div id="checkboxes">
-                <label><input type="checkbox" name="prop1">+Гарантия</label>
-                <label><input type="checkbox" name="prop2">+Защитная плёнка</label>
-            </div>
-        <p>Количество товара</p>
-        <input id="myField" name="field2" type="text" value="1" placeholder="Кол-во товара">
-    </form>
-
-    <p>Стоимость заказа:</p>
-    <div id="prodPrice"></div>
-
-    <img id="phone-img" src="">
-
-    <script src="scripts.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/lightslider.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
